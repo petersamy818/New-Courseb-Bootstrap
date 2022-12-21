@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Courseb Bootstrap | Login</title>
+    <title>New Courseb Bootstrap | Create Account</title>
     <!-- bootstrap Template CSS Files -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome Libirary -->
@@ -48,33 +48,35 @@
     </nav>
     <div class="page">
       <div class="container">
-        <div class="box position-relative text-center px-5 py-4 mt-5 mx-auto rounded-4 box-shadow">
-          <form action="4.html" method="post">
-            <input class="d-block fs-3 py-2 px-4 rounded-4 mt-3 mb-3" type="email" name="password" 
+        <div class="box position-relative text-center px-5 py-4 mt-5 mb-5 mx-auto rounded-4 box-shadow">
+          <form action="1.html" method="post">
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mt-3 mb-3" type="text" name="first name" 
+            placeholder="First Name" required>
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-3" type="text" name="last name" 
+            placeholder="Last Name" required>
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-3" type="email" name="email" 
             placeholder="Email" required>
-            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-3" type="password" name="email" 
-            placeholder="Password" minlength="8" required>
-            <a class="d-block text-decoration-none fs-5 fw-bold mb-3" href="2.html">
-              Forgot Your Password!
-            </a>
-            <input class="d-block fs-4 p-5 pt-1 pb-1 rounded-3 mb-4 mx-auto text-light btn-shadow" 
-            type="submit" name="submit" value="Login">
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-3" type="password" name="password" 
+            placeholder="Password" minlength="11" maxlength="11" required>
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-3" type="password" 
+            name="password confirm" placeholder="Password Confirm" minlength="11" maxlength="11" 
+            required>
+            <div class="date d-flex justify-content-between align-items-center fs-4 fw-bold mb-3">
+                <label for="date">Date Of Birth</label>
+                <input class="text-black-50 fs-3 py-2 px-2 rounded-4" type="date" name="date of birth" id="date" required>
+            </div>
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-3" type="tel" name="phone" 
+            placeholder="Phone Number" minlength="11" maxlength="11" required>
+            <input class="d-block fs-3 py-2 px-4 rounded-4 mb-4" type="text" 
+            name="code" placeholder="Code" minlength="6" maxlength="6" required>
+            <span class="hr"></span>
+            <input class="d-block fs-4 px-5 py-1 rounded-3 mt-5 mb-3 mx-auto text-light 
+            btn-shadow" type="submit" name="submit" value="Confirm">
           </form>
-          <span class="hr"></span>
-          <a class="create btn btn-success btn-shadow fs-4 mt-4 mb-4" href="3.html">
-            Create A New Account
-          </a>
-          <hr class="mt-0 mb-0">
-          <div class="icons d-flex justify-content-center align-items-center gap-5 fs-3 mx-auto mt-4">
-              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f facebook"></i></a>
-              <a href="https://www.github.com"><i class="fa-brands fa-github github"></i></a>
-              <a href="https://www.twitter.com"><i class="fa-brands fa-twitter twitter"></i></a>
-              <a href="https://www.gmail.com/"><i class="fa-solid fa-g gmail"></i></a>
-          </div>
         </div>
       </div>
     </div>
-    <div class="footer fixed-bottom py-4">
+    <div class="footer py-4">
       <div class="container text-light text-center d-flex justify-content-between 
       align-items-center gap-4 flex-column flex-md-row">
         <div class="main">
